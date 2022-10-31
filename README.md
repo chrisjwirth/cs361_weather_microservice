@@ -13,15 +13,17 @@ Map](https://openweathermap.org/) API key.
 5. Navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your 
 browser.
 
-## Requesting Data
+## Communication Contract
+
+### Requesting Data
 To request weather data, visit [http://127.0.0.1:8000/weather/](http://127.0.0.1:8000/weather/) 
 and pass a 
 U.S. city and state as query parameters. 
 
-### Sample Request
+#### Sample Request
 [http://127.0.0.1:8000/weather/?city=Denver&state=Colorado]("http://127.0.0.1:8000/weather/?city=Denver&state=Colorado")
 
-## Receiving Data
+### Receiving Data
 After processing your request, the service will return the following weather 
 information for the provided U.S. city/state.
 - Weather Category
@@ -33,7 +35,7 @@ information for the provided U.S. city/state.
 - Humidity
 - Wind Speed
 
-### Sample Response
+#### Sample Response
 ```json
 {
     "category": "Clouds",
@@ -47,5 +49,5 @@ information for the provided U.S. city/state.
 }
 ```
 
-## UML Sequence Diagram
+### UML Sequence Diagram
 ![UML Sequence Diagram](https://user-images.githubusercontent.com/82831529/198924404-92bb4817-5672-430a-ab4b-45a420d42574.png)
