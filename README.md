@@ -48,4 +48,4 @@ information for the provided U.S. city/state.
 ```
 
 ## UML Sequence Diagram
-![UML Sequence Diagram](UML Sequence Diagram.png)
+![UML Sequence Diagram](https://user-images.githubusercontent.com/82831529/198924404-92bb4817-5672-430a-ab4b-45a420d42574.png)
